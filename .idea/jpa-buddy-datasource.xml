@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="51512216-2536-4e16-a7c4-e18acfa74b10" name="vehicle" url="jdbc:postgresql://localhost/vehicle" driverClass="org.postgresql.Driver" />
+      <data-source id="2e68ad96-301e-4373-b1c1-eea927760643" name="fraud" url="jdbc:postgresql://localhost/fraud" driverClass="org.postgresql.Driver" />
+      <data-source id="62cafb7a-8288-46d5-b7dd-2a9fc5ae6432" name="customer" url="jdbc:postgresql://localhost/customer" driverClass="org.postgresql.Driver" />
+    </data-sources>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig" ddlActionDbType="postgres" migrateIndexesAndConstraints="true" reUseTableSchema="true">
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="renamerInitialized" value="true" />
+    <option name="reverseEngineeringLastDbConnectionId" value="62cafb7a-8288-46d5-b7dd-2a9fc5ae6432" />
+    <option name="reLastEntityCreationPackage" value="customer/src/main/java/com/redcompany/app/customer" />
+    <reUseDbSnapshotConnections>
+      <dbConnection id="62cafb7a-8288-46d5-b7dd-2a9fc5ae6432" />
+    </reUseDbSnapshotConnections>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-CustomerApplication<customer>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.redcompany.app.customer.CustomerApplication",
+      "projectName": "customer",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-FraudApplication<fraud>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.redcompany.app.fraud.FraudApplication",
+      "projectName": "fraud",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

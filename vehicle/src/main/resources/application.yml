@@ -1,0 +1,28 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: vehicle
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/vehicle"
+    username: amigoscode
+    password: password
+  jpa:
+    platform: postgres
+    generate-ddl: true
+    show-sql: true
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+
+  sql:
+    init:
+      data-locations:
+        - classpath:data.sql
+        - classpath:db/import_joins.sql
+      mode: always
